@@ -1,0 +1,64 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#topDiv{
+	max-height: 90vh;
+}
+.myCarousel{
+	max-height: 90vh;
+}
+.Nature{
+	color: #2d7262;
+	font-size: 1.1em;
+}
+
+#navbarNav a{
+	font-size: 1.2em;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.carouselDiv{
+	background-color: #232123;
+}
+.myCarouselImg{
+	max-height: 95vh;
+	width: auto;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.navbarUl{
+	width: 100%;
+}
+
+#topIntro{
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 60px;
+
+}
+#bodyIntro{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.myPara{
+	font-size: 1.1em;
+	line-height: 40px;
+	text-align: justify;
+	font-family: 'Ubuntu', sans-serif;
+}
+.titleIntro{
+	text-align: center;
+	text
+}
+.col-md{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#logoTitle{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.5em;
+}
