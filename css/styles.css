@@ -62,3 +62,49 @@ body{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 1.5em;
 }
+@media only screen and (max-width: 400px){
+	#logoTitle{
+		font-size: 1em;
+	}
+}
+
+#infoBody{
+	margin-top: 5%;
+}
+
+.card{
+	margin: 2%;
+}
+.myCard{
+	padding:0;
+}
+.myCardImg{
+	max-height: 350px;
+}
+.cardPara{
+	text-align: justify;
+	font-size: 1.1em;
+	line-height: 30px;
+	margin-top: 20px;
+}
+#cardCarousel{
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 15px;
+}
+.myBtn{
+	background-color:#45c7be;
+    border-radius: 26px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:14px;
+	padding:10px 25px;
+	text-decoration:none;
+    transition: 0.2s;
+}
+.myBtn:hover {
+    background-color:#EF5350;
+    transform: translateY(-2px);
+    color: white;
+}
