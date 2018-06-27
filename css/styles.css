@@ -80,6 +80,10 @@ body{
 }
 .myCardImg{
 	max-height: 350px;
+	width: auto;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 .cardPara{
 	text-align: justify;
@@ -107,10 +111,4 @@ body{
     background-color:#EF5350;
     transform: translateY(-2px);
     color: white;
-}
-.myCardImg{
-	width: auto;
-	max-width: 100%;
-	margin-left: auto;
-	margin-right: auto;
 }
