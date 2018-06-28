@@ -62,18 +62,15 @@ body{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 1.5em;
 }
-@media only screen and (max-width: 400px){
-	#logoTitle{
-		font-size: 1em;
-	}
-}
+
+
 
 #infoBody{
 	margin-top: 5%;
 }
 
 .card{
-	margin: 2%;
+	margin: 15px;
 }
 .myCard{
 	padding:0;
@@ -112,3 +109,58 @@ body{
     transform: translateY(-2px);
     color: white;
 }
+.cardCarousel3{
+	height: 450px;
+}
+.myCardCarousel3Img{
+	max-height: 450px;
+	width: auto;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media only screen and (max-width: 1200px){
+	.myCardImg{
+		max-height: 300px;
+		width: auto;
+		max-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#infoBody{
+		margin-top: 80px;
+	}
+}
+
+@media only screen and (max-width: 850px){
+	.myCardImg{
+		max-height: 225px;
+		width: auto;
+		max-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#infoBody{
+		margin-top: 80px;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	#logoTitle{
+		font-size: 1em;
+	}
+	.myCardCarousel3Img{
+		max-height: 250px;
+		width: auto;
+		max-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#infoBody{
+		margin-top: 70px;
+	}
+
+}
+
