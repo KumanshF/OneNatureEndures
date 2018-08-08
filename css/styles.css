@@ -32,7 +32,7 @@ body{
 	width: 100%;
 }
 
-#topIntro{
+.topIntro{
 	text-align: center;
 	padding-left: 10%;
 	padding-right: 10%;
@@ -51,7 +51,6 @@ body{
 }
 .titleIntro{
 	text-align: center;
-	text
 }
 .col-md{
 	padding-left: 20px;
@@ -63,10 +62,8 @@ body{
 	font-size: 1.5em;
 }
 
-
-
-#infoBody{
-	margin-top: 5%;
+.infoBody{
+	margin-top: 8%;
 }
 
 .card{
@@ -119,6 +116,21 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.paraBody{
+	margin-top: 3%;
+}
+.myParaSgp{
+	font-size: 1.1em;
+	line-height: 40px;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+.teamTitle{
+	margin-bottom: 25px;
+}
+
+
 
 @media only screen and (max-width: 1200px){
 	.myCardImg{

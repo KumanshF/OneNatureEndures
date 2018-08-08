@@ -1,8 +1,4 @@
 $(document).ready(function() {
-    $("#owdBtn").on("click", function(){
-    	$("#cardInfoTitle").text("OneNature Waste Development (OWD)")
-    	$("#cardContent").load("1.html")
-    });
 
 
     $("#aajBtn").on("click", function(){
