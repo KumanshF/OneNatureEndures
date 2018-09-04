@@ -32,6 +32,7 @@ body{
 	width: 100%;
 }
 
+
 .topIntro{
 	text-align: center;
 	padding-left: 10%;
@@ -72,12 +73,20 @@ body{
 .myCard{
 	padding:0;
 }
+
+.cardImgdiv{
+	height: 300px;
+}
 .myCardImg{
 	max-height: 350px;
 	width: auto;
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	display: block;
+}
+.awarenessImg{
+	margin-top: 50px;
 }
 .cardPara{
 	text-align: justify;
@@ -140,9 +149,10 @@ body{
 		margin-left: auto;
 		margin-right: auto;
 	}
-	#infoBody{
+	.infoBody{
 		margin-top: 80px;
 	}
+
 }
 
 @media only screen and (max-width: 850px){
@@ -153,8 +163,11 @@ body{
 		margin-left: auto;
 		margin-right: auto;
 	}
-	#infoBody{
+	.infoBody{
 		margin-top: 80px;
+	}
+	.title{
+		margin-top: 50px;
 	}
 }
 
@@ -172,6 +185,9 @@ body{
 
 	#infoBody{
 		margin-top: 70px;
+	}
+	.title{
+		margin-top: 50px;
 	}
 
 }
